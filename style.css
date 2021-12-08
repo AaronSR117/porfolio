@@ -1,0 +1,84 @@
+h1{
+    color: springgreen;
+}
+h2{
+    color: green;
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    background-color: #d6236e;
+    font-size: 15px;
+    font-family: "Arial";
+    font-weight: 400;
+    color:rgb(255, 0, 64);
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+    margin-right:25px;
+}
+
+/**{
+    border: solid;
+    background-image:image("pobre señor.PNG"); 
+}
+
+.header{
+    background-color:rgb(239, 241, 133);
+    display:flex;
+    justify-content: space-between;
+    
+}*/
+
+.site-description{
+    display:flex;
+    flex-direction:column;
+    justify-content:first baseline;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    font-family:fantasy;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: rgb(111, 182, 178);
+}
+
+a:link{
+    color:rgb(251, 152, 152)
+}
+
+a:visited{
+    color: rgb(255, 0, 0);
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
